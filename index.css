@@ -1,3 +1,16 @@
+@font-face {
+  font-family: Tele-Grotesk-Ultr;
+  src: url('./assets/fonts/Tele-Grotesk-Ultr/Tele-Grotesk-Ultr.ttf');
+}
+@font-face {
+  font-family: Tele-Grotesk-Fett;
+  src: url('./assets/fonts/Tele-Grotesk-Fett/Tele-Grotesk-Fett.ttf');
+}
+@font-face {
+  font-family: Tele-Grotesk-Norm;
+  src: url('./assets/fonts/Tele-Grotesk-Norm/Tele-Grotesk-Norm.ttf');
+}
+
 html,
 body {
   height: 100%;
@@ -7,8 +20,28 @@ body {
   font-family: Roboto, 'Helvetica Neue', sans-serif;
   background-color: #f0f0f0;
 }
+h1,
+h2 {
+  font-family: Tele-Grotesk-Ultr;
+  letter-spacing: 0.1rem;
+}
+.logo-img {
+  vertical-align: middle;
+}
 .logo-title {
   text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
   width: 0;
   display: inline-block;
+  vertical-align: middle;
+  font-family: Tele-Grotesk-Fett;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+header {
+  height: 4.1rem;
+}
+main {
+  margin: 0 auto;
+  width: 45rem;
 }
