@@ -10,7 +10,9 @@
   font-family: Tele-Grotesk-Norm;
   src: url('./assets/fonts/Tele-Grotesk-Norm/Tele-Grotesk-Norm.ttf');
 }
-
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   height: 100%;
@@ -18,12 +20,24 @@ body {
 body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
+
 h1,
 h2 {
   font-family: Tele-Grotesk-Ultr;
   letter-spacing: 0.1rem;
+  line-height: 3rem;
+}
+h1 {
+  font-size: 4rem;
+  color: #e20074;
+}
+h2 {
+  font-size: 2.5rem;
+}
+a {
+  color: #e20074;
 }
 .logo-img {
   vertical-align: middle;
@@ -43,5 +57,19 @@ header {
 }
 main {
   margin: 0 auto;
-  width: 45rem;
+  width: 50rem;
+}
+li {
+  list-style: none;
+  list-style-type: none;
+  position: relative;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+li:before {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 2ex;
+  content: '–';
 }
