@@ -5,9 +5,12 @@ function renderCodeSnippets() {
   snippets.forEach((s) => {
     const clone = template.content.cloneNode(true);
     const codeElement = clone.querySelector('.lang-html');
-    // console.log(s.code);
     codeElement.textContent = s.code;
-    container.appendChild(codeElement);
+    const title = clone.querySelector('h3');
+    title.textContent = s.title;
+    const description = clone.querySelector('p');
+    description.textContent = s.text;
+    container.appendChild(clone);
   });
 }
 

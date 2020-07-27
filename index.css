@@ -76,6 +76,19 @@ li:before {
   width: 2ex;
   content: '–';
 }
+#examples-container {
+  padding: 0;
+}
+figure {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  grid-gap: 2rem;
+  width: 100%;
+  margin-inline-start: 0;
+}
+h3 {
+  color: #000;
+}
 .lang-html {
   background-color: #000;
   color: #e089b6;
@@ -83,7 +96,7 @@ li:before {
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 10px;
-  margin: 0 0 20px;
+  margin: 0;
   border: 0;
   border-radius: 5px;
   white-space: pre-wrap;
