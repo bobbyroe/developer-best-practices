@@ -76,3 +76,15 @@ li:before {
   width: 2ex;
   content: '–';
 }
+.lang-html {
+  background-color: #000;
+  color: #e089b6;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin: 0 0 20px;
+  border: 0;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
