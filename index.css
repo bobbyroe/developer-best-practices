@@ -81,13 +81,10 @@ li:before {
 }
 figure {
   display: grid;
-  grid-template-columns: 5fr 4fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   width: 100%;
   margin-inline-start: 0;
-}
-h3 {
-  color: #000;
 }
 .lang-html {
   background-color: #000;
