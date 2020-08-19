@@ -1,7 +1,7 @@
 const snippets = [
   {
     title: "If it goes somewhere, it's a link",
-    text: 'Links should take people to difference URIs.',
+    text: 'Links should take people to different URIs.',
     code: `<a href="/contact/">
   Contact
 </a>`,
