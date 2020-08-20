@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-size: 2.5rem;
 }
-h3 {
+#process {
   color: #e20074;
 }
 a {
@@ -75,6 +75,9 @@ li:before {
   display: inline-block;
   width: 2ex;
   content: '–';
+}
+em {
+  font-weight: bold;
 }
 #examples-container {
   padding: 0;
