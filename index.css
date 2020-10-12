@@ -20,7 +20,8 @@ body {
 body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
-  background-color: #fff;
+  background-color: #202020;
+  color: #e0e0e0;
 }
 
 h1,
@@ -31,16 +32,16 @@ h2 {
 }
 h1 {
   font-size: 4rem;
-  color: #e20074;
+  color: #f0f0f0;
 }
 h2 {
   font-size: 2.5rem;
 }
 #process {
-  color: #e20074;
+  color: #fff;
 }
 a {
-  color: #e20074;
+  color: #00ccff;
 }
 .logo-img {
   vertical-align: middle;
@@ -91,7 +92,7 @@ figure {
 }
 .lang-html {
   background-color: #000;
-  color: #e089b6;
+  color: #89e089;
   display: block;
   font-size: 1rem;
   line-height: 1.5rem;
